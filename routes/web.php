@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*Route::post('/file', function(\Illuminate\Http\Request $request) {
+    dd($request->allFiles());
+});*/
